@@ -1,0 +1,273 @@
+# Created at 2022-07-07T09:38:43.534
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2022-07-07T09:38:48.260
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'XD', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce8d0e2ea882f48ad1105150124b4571, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\mites\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53339/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce8d0e2ea882f48ad1105150124b4571
+
+# Created at 2022-07-07T09:38:48.270
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.275
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+# Created at 2022-07-07T09:38:48.276
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.277
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+# Created at 2022-07-07T09:38:48.278
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.279
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+
+# Created at 2022-07-07T09:38:48.280
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.281
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+
+# Created at 2022-07-07T09:38:48.282
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.283
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+
+# Created at 2022-07-07T09:38:48.284
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.286
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+
+# Created at 2022-07-07T09:38:48.286
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.287
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+
+# Created at 2022-07-07T09:38:48.288
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.289
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+
+# Created at 2022-07-07T09:38:48.289
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.290
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+
+# Created at 2022-07-07T09:38:48.291
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.291
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+
+# Created at 2022-07-07T09:38:48.293
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.294
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+
+# Created at 2022-07-07T09:38:48.294
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.295
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+
+# Created at 2022-07-07T09:38:48.296
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.297
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
+
+# Created at 2022-07-07T09:38:48.297
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.298
+Unexpected IOException with stream: 	at resources.Base.getScreenShotPath(Base.java:60)
+
+# Created at 2022-07-07T09:38:48.299
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.300
+Unexpected IOException with stream: 	at Academy.Listeners.onTestFailure(Listeners.java:44)
+
+# Created at 2022-07-07T09:38:48.301
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.301
+Unexpected IOException with stream: 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99)
+
+# Created at 2022-07-07T09:38:48.302
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.303
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+
+# Created at 2022-07-07T09:38:48.304
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.306
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:757)
+
+# Created at 2022-07-07T09:38:48.307
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.307
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+
+# Created at 2022-07-07T09:38:48.308
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.309
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+
+# Created at 2022-07-07T09:38:48.310
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.310
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+
+# Created at 2022-07-07T09:38:48.311
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.312
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+
+# Created at 2022-07-07T09:38:48.313
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.314
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+
+# Created at 2022-07-07T09:38:48.314
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.315
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+
+# Created at 2022-07-07T09:38:48.316
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.317
+Unexpected IOException with stream: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+# Created at 2022-07-07T09:38:48.317
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.318
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+
+# Created at 2022-07-07T09:38:48.319
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.319
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:601)
+
+# Created at 2022-07-07T09:38:48.320
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.321
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+
+# Created at 2022-07-07T09:38:48.322
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.322
+Unexpected IOException with stream: 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+
+# Created at 2022-07-07T09:38:48.323
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.324
+Unexpected IOException with stream: 	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+
+# Created at 2022-07-07T09:38:48.325
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.325
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+
+# Created at 2022-07-07T09:38:48.326
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.327
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+# Created at 2022-07-07T09:38:48.327
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.328
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+# Created at 2022-07-07T09:38:48.329
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.329
+Unexpected IOException with stream: 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+# Created at 2022-07-07T09:38:48.330
+Unexpected IOException with stream: 
+
+
+# Created at 2022-07-07T09:38:48.332
+Unexpected IOException: 8,1,Academy.HomePage,basePageNavigation(Academy.HomePage),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C findElement {using=xpath\002C value=//a/span[contains(.\002C'Login')]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571,null,chrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C findElement {using=xpath\002C value=//a/span[contains(.\002C'Login')]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571,HomePage.basePageNavigation:32 \00BB WebDriver chrome not reachable\000A  (Session inf...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C findElement {using=xpath\002C value=//a/span[contains(.\002C'Login')]}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571\000A\0009at Academy.HomePage.basePageNavigation(HomePage.java:32)\000A
+
+
+# Created at 2022-07-07T09:38:48.528
+Unexpected IOException: 8,1,Academy.HomePage,driverClose(Academy.HomePage),null,chrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571,null,chrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571,HomePage.driverClose:60 \00BB WebDriver chrome not reachable\000A  (Session info: chro...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=103.0.5060.66)\000ABuild info: version: '4.3.0'\002C revision: 'a4995e2c09*'\000ASystem info: host: 'XD'\002C ip: '192.168.1.10'\002C os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ce8d0e2ea882f48ad1105150124b4571\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.66\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005Cmites\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:53339}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53339/devtoo...\002C se:cdpVersion: 103.0.5060.66\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ce8d0e2ea882f48ad1105150124b4571\000A\0009at Academy.HomePage.driverClose(HomePage.java:60)\000A
+
+
+# Created at 2022-07-07T09:38:48.718
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

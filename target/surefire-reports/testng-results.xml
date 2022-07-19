@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-08T10:47:38 IST" name="Suite" finished-at="2022-07-08T10:48:38 IST" duration-ms="59831">
+    <groups>
+    </groups>
+    <test started-at="2022-07-08T10:47:38 IST" name="title validation" finished-at="2022-07-08T10:48:08 IST" duration-ms="29848">
+      <class name="Academy.GetTitle">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:Academy.GetTitle@55787112]" started-at="2022-07-08T10:47:38 IST" name="intialize" finished-at="2022-07-08T10:48:08 IST" duration-ms="29276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="validateTitle()[pri:0, instance:Academy.GetTitle@55787112]" started-at="2022-07-08T10:48:08 IST" name="validateTitle" finished-at="2022-07-08T10:48:08 IST" duration-ms="99" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATUREDd COURSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATUREDd COURSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Academy.GetTitle.validateTitle(GetTitle.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:Academy.GetTitle@55787112]" started-at="2022-07-08T10:48:08 IST" name="driverClose" finished-at="2022-07-08T10:48:08 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- Academy.GetTitle -->
+    </test> <!-- title validation -->
+    <test started-at="2022-07-08T10:47:38 IST" name="Navigation bar validation" finished-at="2022-07-08T10:48:14 IST" duration-ms="35322">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:Academy.ValidateNavigationBar@38f57b3d]" started-at="2022-07-08T10:47:38 IST" name="intialize" finished-at="2022-07-08T10:48:14 IST" duration-ms="35203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigationBar@38f57b3d]" started-at="2022-07-08T10:48:14 IST" name="basePageNavigation" finished-at="2022-07-08T10:48:14 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:Academy.ValidateNavigationBar@38f57b3d]" started-at="2022-07-08T10:48:14 IST" name="driverClose" finished-at="2022-07-08T10:48:14 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Navigation bar validation -->
+    <test started-at="2022-07-08T10:47:38 IST" name="login" finished-at="2022-07-08T10:48:38 IST" duration-ms="59831">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:Academy.HomePage@b40bb6e]" started-at="2022-07-08T10:47:38 IST" name="intialize" finished-at="2022-07-08T10:47:41 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@b40bb6e]" started-at="2022-07-08T10:47:41 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-08T10:48:21 IST" duration-ms="40873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mitesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@b40bb6e]" started-at="2022-07-08T10:48:21 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-08T10:48:38 IST" duration-ms="16773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[as]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zzz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:Academy.HomePage@b40bb6e]" started-at="2022-07-08T10:48:38 IST" name="driverClose" finished-at="2022-07-08T10:48:38 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- login -->
+  </suite> <!-- Suite -->
+</testng-results>
